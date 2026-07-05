@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Power Pages Field Guide</title>
+<style>
+  :root{ --blue:#0B5FFF; --border:#E1DFDD; --text:#201F1E; --text-secondary:#605E5C; }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;background:#F3F2F1;color:var(--text);}
+  .hero{background:linear-gradient(120deg,#0B5FFF 0%,#00224D 100%);color:#fff;padding:44px 24px 52px;text-align:center;}
+  .hero .eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#bcd3ff;font-weight:700;}
+  .hero h1{font-size:27px;margin:10px 0;}
+  .hero p{font-size:13.5px;color:#dbe8ff;max-width:660px;margin:0 auto;line-height:1.6;}
+  .back-link{display:inline-block;margin-top:16px;color:#fff;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:6px 16px;border-radius:20px;font-size:12px;text-decoration:none;}
+
+  .container{max-width:1050px;margin:-26px auto 0;padding:0 24px 60px;}
+
+  .who{display:flex;gap:14px;margin-bottom:26px;flex-wrap:wrap;}
+  .who-card{flex:1;min-width:220px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px 16px;box-shadow:0 4px 12px rgba(0,0,0,.05);}
+  .who-card .role{font-size:12px;font-weight:800;color:var(--blue);}
+  .who-card .d{font-size:11.5px;color:var(--text-secondary);margin-top:4px;line-height:1.5;}
+
+  .path{background:#0B1B3A;color:#c9e0ff;border-radius:10px;padding:18px 22px;margin-bottom:26px;font-family:'Cascadia Code',Consolas,monospace;font-size:11.5px;line-height:1.9;overflow-x:auto;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;}
+  .card{background:#fff;border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.05);}
+  .card.capstone{grid-column:1/-1;border:2px solid var(--blue);}
+  .card-body{padding:16px 18px;}
+  .modnum{font-size:10px;font-weight:800;color:var(--blue);text-transform:uppercase;}
+  .lvl{font-size:9.5px;font-weight:700;padding:2px 8px;border-radius:8px;margin-left:6px;}
+  .lvl.beg{background:#DFF6DD;color:#107C10;} .lvl.int{background:#FFF1D6;color:#8a6100;} .lvl.adv{background:#FDE0CB;color:#8a3800;} .lvl.exp{background:#FDE7E9;color:#a80000;} .lvl.all{background:#F3E9FB;color:#742774;}
+  .title{font-size:14px;font-weight:800;margin:8px 0 6px;}
+  .topics{font-size:11.5px;color:var(--text-secondary);line-height:1.5;}
+  .link{display:inline-block;margin-top:10px;font-size:11.5px;font-weight:700;color:var(--blue);text-decoration:none;}
+
+  .footer{text-align:center;margin-top:30px;font-size:12px;color:var(--text-secondary);}
+  .footer a{color:var(--blue);}
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="eyebrow">Power Pages · Practitioner Field Guide</div>
+    <h1>power-pages-field-guide</h1>
+    <p>The complete practitioner's reference for Microsoft Power Pages — every concept explained from first principles with real-world examples, working code, POC projects, and the latest 2026 features including AI-assisted site building.</p>
+    <a class="back-link" href="https://rahul7387.github.io/power-platform-portfolio-hub/">← Back to Portfolio Hub</a>
+  </div>
+
+  <div class="container">
+
+    <div class="who">
+      <div class="who-card"><div class="role">Citizen Developer / Maker</div><div class="d">Follow modules 1–4 for no-code/low-code portal building</div></div>
+      <div class="who-card"><div class="role">Pro Developer</div><div class="d">Modules 5–6 for Liquid, JavaScript, Web API, VS Code integration</div></div>
+      <div class="who-card"><div class="role">Architect</div><div class="d">Modules 7–9 for AI, integrations, ALM, governance</div></div>
+      <div class="who-card"><div class="role">Anyone</div><div class="d">Module 10 for the capstone — a board-ready customer portal</div></div>
+    </div>
+
+    <div class="path">
+BEGINNER ─────────────────────────────────────────────── EXPERT
+<br><br>
+01. What is Power Pages?       06. JavaScript &amp; Web API
+<br>02. Design Studio (no-code)    07. Copilot &amp; AI (2026)
+<br>03. Dataverse &amp; Data           08. Integrations (Automate, BI, Teams, SharePoint)
+<br>04. Authentication &amp; Security  09. DevOps &amp; ALM
+<br>05. Liquid Templates           10. Capstone Project
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 01</span><span class="lvl beg">Beginner</span>
+        <div class="title">Foundations</div>
+        <div class="topics">What is Power Pages, licensing, trial setup, first site</div>
+        <a class="link" href="./module-01-foundations/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 02</span><span class="lvl beg">Beginner</span>
+        <div class="title">Design Studio</div>
+        <div class="topics">Pages, sections, components, themes, forms, lists</div>
+        <a class="link" href="./module-02-design-studio/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 03</span><span class="lvl beg">Beginner–Intermediate</span>
+        <div class="title">Dataverse &amp; Data</div>
+        <div class="topics">Tables, columns, relationships, forms, views</div>
+        <a class="link" href="./module-03-dataverse-data/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 04</span><span class="lvl int">Intermediate</span>
+        <div class="title">Auth &amp; Security</div>
+        <div class="topics">Web roles, table permissions, identity providers, RLS</div>
+        <a class="link" href="./module-04-authentication-security/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 05</span><span class="lvl int">Intermediate</span>
+        <div class="title">Liquid Templates</div>
+        <div class="topics">Liquid syntax, objects, tags, filters, custom templates</div>
+        <a class="link" href="./module-05-liquid-code/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 06</span><span class="lvl adv">Advanced</span>
+        <div class="title">JavaScript &amp; Web API</div>
+        <div class="topics">Portal Web API, CRUD, VS Code, custom JS, CSS</div>
+        <a class="link" href="./module-06-javascript-webapi/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 07</span><span class="lvl adv">Advanced</span>
+        <div class="title">Copilot &amp; AI</div>
+        <div class="topics">Copilot Studio agents, AI-assisted building, Agent API</div>
+        <a class="link" href="./module-07-copilot-ai/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 08</span><span class="lvl adv">Advanced</span>
+        <div class="title">Integrations</div>
+        <div class="topics">Power Automate, Power BI, Teams, SharePoint, third-party</div>
+        <a class="link" href="./module-08-integrations/">Open module →</a>
+      </div></div>
+
+      <div class="card"><div class="card-body">
+        <span class="modnum">Module 09</span><span class="lvl exp">Expert</span>
+        <div class="title">DevOps &amp; ALM</div>
+        <div class="topics">PAC CLI, GitHub Actions, Azure DevOps, environments</div>
+        <a class="link" href="./module-09-devops-alm/">Open module →</a>
+      </div></div>
+
+      <div class="card capstone"><div class="card-body">
+        <span class="modnum">⭐ Module 10 — Capstone</span><span class="lvl all">All Levels</span>
+        <div class="title">Full Customer Self-Service Portal</div>
+        <div class="topics">End-to-end build: Dataverse schema, site build, security setup, integrations, and deployment — the board-ready flagship project.</div>
+        <a class="link" href="./module-10-capstone-project/">Open module →</a>
+      </div></div>
+    </div>
+
+    <div class="footer">
+      Includes 2026 licensing details and the Power Pages plugin for GitHub Copilot CLI &amp; Claude Code.<br>
+      <a href="https://github.com/Rahul7387/power-pages-field-guide">View source on GitHub</a> ·
+      <a href="https://rahul7387.github.io/power-platform-portfolio-hub/">Back to Portfolio Hub</a>
+    </div>
+  </div>
+
+</body>
+</html>
